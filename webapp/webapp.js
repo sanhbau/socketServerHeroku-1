@@ -31,7 +31,7 @@ angular.module('myApp', [
 	////Khu 3 -- Nhận dữ liệu từ Arduno gửi lên (thông qua ESP8266 rồi socket server truyền tải!)
 	//các sự kiện từ Arduino gửi lên (thông qua esp8266, thông qua server)
 	mySocket.on('RAC', function(json) {
-		$scope.cambienrac = (json.digital == 1) ? "CHƯA ĐẦY" : "ĐÃ ĐẦY"
+		$scope.cambienrac = (json.digital == 1) ? "ĐÃ ĐẦY" : "CHƯA ĐẦY"
 	})
 	
 	//// Khu 4 -- Những dòng code sẽ được thực thi khi kết nối với Arduino (thông qua socket server)
