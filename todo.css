@@ -1,0 +1,19 @@
+body {
+	background-color:#00676B;
+	background: linear-gradient(top, #CAE5E8 0%, #00676B 100%);
+	background:-o-linear-gradient(top, #CAE5E8 #00676B);
+	background:-moz-linear-gradient(top, #CAE5E8, #00676B);
+	background:-webkit-gradient(linear, left top, left bottom, from(#CAE5E8), to(#00676B));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr ='#CAE5E8', endColorstr ='#00676B');
+	background: -ms-linear-gradient(top, #CAE5E8, #00676B);
+	background-attachment: fixed;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	font-family: Sans Serif, Arial Western, Verdana;
+	font-size: small;
+        text-align: center;
+        align: center;
+     }
+ #gioithieu {color: red}       
